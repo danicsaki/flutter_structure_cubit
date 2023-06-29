@@ -1,20 +1,24 @@
-import 'package:app_structure_example/screens/screens.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class SplashScreen extends StatelessWidget {
+  static const String routeName = '/';
+
   const SplashScreen({super.key});
+
+  static Route route() {
+    return MaterialPageRoute(
+      builder: (_) => const SplashScreen(),
+      settings: const RouteSettings(name: routeName),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
     Future.delayed(const Duration(seconds: 3)).then(
       (value) {
-        Navigator.pushReplacement(
-          context,
-          MaterialPageRoute(
-            builder: (context) => const OnboardingScreen(),
-          ),
-        );
+        Navigator.of(context).pushNamedAndRemoveUntil(
+            '/onboarding', (Route<dynamic> route) => false);
       },
     );
     return Scaffold(

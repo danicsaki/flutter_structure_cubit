@@ -1,7 +1,16 @@
 import 'package:flutter/material.dart';
 
 class OnboardingScreen extends StatelessWidget {
+  static const String routeName = '/onboarding';
+
   const OnboardingScreen({super.key});
+
+  static Route route() {
+    return MaterialPageRoute(
+      builder: (_) => const OnboardingScreen(),
+      settings: const RouteSettings(name: routeName),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -40,12 +49,7 @@ class OnboardingScreen extends StatelessWidget {
           ),
           InkWell(
             onTap: () {
-              Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => const OnboardingScreen(),
-                ),
-              );
+              Navigator.of(context).pushNamed('/register');
             },
             child: Padding(
               padding: const EdgeInsets.only(bottom: 30, left: 16, right: 16),
