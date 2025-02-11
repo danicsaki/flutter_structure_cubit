@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "641409149431",
+    "project_id": "plantingapp-ca2aa",
+    "storage_bucket": "plantingapp-ca2aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641409149431:android:9d698c3b49941f069226f2",
+        "android_client_info": {
+          "package_name": "com.example.app_structure_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641409149431-p7o5b6bmiiptu60fs1ulilifnn4lgrkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr-9CWSmOUqo3C36Rn3VDgxJ0Jebip78c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641409149431-p7o5b6bmiiptu60fs1ulilifnn4lgrkr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "641409149431-54pfsl77ccd46l1r61v64htngfb8047a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.plantingApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641409149431:android:4cdacd238fff75559226f2",
+        "android_client_info": {
+          "package_name": "com.example.cubit_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641409149431-p7o5b6bmiiptu60fs1ulilifnn4lgrkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr-9CWSmOUqo3C36Rn3VDgxJ0Jebip78c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641409149431-p7o5b6bmiiptu60fs1ulilifnn4lgrkr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "641409149431-54pfsl77ccd46l1r61v64htngfb8047a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.plantingApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641409149431:android:38c6520503f372269226f2",
+        "android_client_info": {
+          "package_name": "com.example.planting_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641409149431-p7o5b6bmiiptu60fs1ulilifnn4lgrkr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr-9CWSmOUqo3C36Rn3VDgxJ0Jebip78c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641409149431-p7o5b6bmiiptu60fs1ulilifnn4lgrkr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "641409149431-54pfsl77ccd46l1r61v64htngfb8047a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.plantingApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
